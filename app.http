@@ -1,0 +1,21 @@
+GET http://localhost:3009/data
+
+###
+POST http://localhost:3009/post/data
+Content-Type: application/json
+
+{
+    "name":"devi",
+    "age":37
+}
+
+###
+PATCH http://localhost:3009/data/1
+Content-Type: application/json
+
+{
+    "name":"Madhu Sudhan"
+}
+
+###
+GET http://localhost:3009/data/nJWRHP4xnkkQ8fp7XRF4K7
