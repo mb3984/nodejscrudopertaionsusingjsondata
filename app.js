@@ -133,7 +133,7 @@ app.get("/data/:userId", async (req, res) => {
   } catch (error) {
     res.status(500).send({
       status: "error",
-      message: "An error occurred while fetching the user",
+      message: "An error occurred while fetching the User",
     });
     console.error(error);
   }
